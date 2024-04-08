@@ -16,7 +16,7 @@ export default function AuthNav() {
         Register
       </NavLink>
       <NavLink className={css.link} to="/login" onClick={handleClick}>
-        Log In
+        Login
       </NavLink>
     </div>
   );
