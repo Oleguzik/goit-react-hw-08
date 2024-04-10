@@ -44,6 +44,7 @@ const contactsSlice = createSlice({
       })
       .addCase(deleteContact.rejected, handleRejected)
       .addCase(logout.fulfilled, (state) => {
+        //Logout is working now
         state.items = [];
         state.error = null;
         state.isLoading = false;
